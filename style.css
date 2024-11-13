@@ -8,31 +8,66 @@
     box-shadow: 5px 5px 8px rgb(184, 184, 184);
     margin: 7% 40% 10%  40% ;
     background-color:rgb(202, 238, 255);
+    width: 20%;
     
 }
 .event-icons img{
-    width: 1.5rem;
-    height: 1.5rem;
+    width: 1rem;
+    height: 1rem;
     text-align: right;
+    margin-top: 8px;
+    margin-right: 8px;
+}
+.event-icons p{
+    margin-left: 8px;
+    margin-top: 8px;
 }
 .event-icons{
     display: flex;
     flex-direction: row;
+    width: 100%;
+    vertical-align:auto;
+    justify-content: space-between;
+   vertical-align: auto;
 }
 .visible{
     display: block !important;
 }
 .calcul{
     height: 6rem;
+
+}
+.calcul h2{
+    text-align: right;
+    font-size: 70px;
+    margin-right: 8px;
+}
+.number{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+
 }
 .number button{
-    width: 5.5rem;
+    
     height: 4rem;
     background-color: rgb(255, 255, 255);
     border: 0px;
     border-radius: 5px;
     margin: 1px;
 }
+.number button:hover{
+    background-color: rgb(160, 212, 228);
+}
+.number button:active{
+    background-color: rgb(106, 119, 131);
+    transition: 200ms;
+}
 .number .c{
     background-color: rgb(113, 181, 212);
+}
+
+.clicked{
+    background-color: rgb(172, 172, 54);
 }
