@@ -48,7 +48,7 @@ noneAlapszam = "";
 
 function alapszamUpdate(){
     megjelen.innerText = nullaAlapszam;
-    elomeny.innerText = noneAlapszam;
+    elozmeny.innerText = noneAlapszam;
 } 
 
 function btnSzam(szamString){
