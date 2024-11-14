@@ -23,34 +23,33 @@
                 </div>
                 
             </div>
-            <div class="calcul">
-                <h2>0</h2>
-            </div>
+            <div class="muveletElozmeny" id="muveletElozmeny">5 + 5 = </div>
+            <div class="calcul" id="calcul">0</div>
             <div class="number" id="buttongrid">
                
-                    <button class="c" id="C">C</button>
-                    <button class="c" id="CE">CE</button>
-                    <button class="c" id="hatvany">X<sup>2</sup></button>
-                    <button class="c" id="osztas">÷</button>
+                    <button onclick="btnTorles()" class="c" id="C">C</button>
+                    <button onclick="btnVisszaTorles()" class="c" id="CE">CE</button>
+                    <button onclick="btnHatvanyozas()" class="c" id="hatvany">X<sup>2</sup></button>
+                    <button onclick="btnMuvelet()" class="c" id="osztas">÷</button>
                 
-                    <button id="het">7</button>
-                    <button id="nyolc">8</button>
-                    <button id="kilenc">9</button>
-                    <button class="c" id="szorzas">x</button>
+                    <button onclick="btnSzam('7')" id="het">7</button>
+                    <button onclick="btnSzam('8')" id="nyolc">8</button>
+                    <button onclick="btnSzam('9')" id="kilenc">9</button>
+                    <button  class="c" id="szorzas">x</button>
                
-                    <button id="negy">4</button>
-                    <button id="ot">5</button>
-                    <button id="hat">6</button>
+                    <button onclick="btnSzam('4')" id="negy">4</button>
+                    <button onclick="btnSzam('5')" id="ot">5</button>
+                    <button onclick="btnSzam('6')" id="hat">6</button>
                     <button  class="c" id="kivonas">-</button>
                
-                    <button id="egy">1</button>
-                    <button id="ketto">2</button>
-                    <button id="harom">3</button>
-                    <button class="c" id="negy">+</button>
+                    <button onclick="btnSzam('1')" id="egy">1</button>
+                    <button onclick="btnSzam('2')" id="ketto">2</button>
+                    <button onclick="btnSzam('3')" id="harom">3</button>
+                    <button class="c" id="osszeadas">+</button>
                
-                    <button id="pluszminusz">±</button>
-                    <button id="nulla">0</button>
-                    <button id="pont">.</button>
+                    <button onclick="btnPluszminusz('+-')" id="pluszminusz">±</button>
+                    <button onclick="btnSzam('0')" id="nulla">0</button>
+                    <button onclick="btnPont('.')" id="pont">.</button>
                     <button id="egyenlo" style="background-color: rgb(101, 143, 168);">=</button>
                
             </div>
